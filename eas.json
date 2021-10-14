@@ -2,8 +2,10 @@
   "build": {
     "release": {},
     "development": {
-      "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     }
   },
   "submit": {
